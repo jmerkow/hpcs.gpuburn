@@ -21,3 +21,12 @@ Options
 ## Disclaimer
 
 Use this tool at your own risks with extreme caution on system temprature. We DO NOT take any responsibility on the loss and damage of your devices or related things.
+
+## Docker Usage
+
+Build:
+
+```
+docker build . -t hpcs.gpuburn:latest
+nvidia-docker run -it hpcs.gpuburn:latest
+```
